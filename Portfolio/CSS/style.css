@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.back-1 {
+    background-color: whitesmoke;
+}
+
+@font-face {
+    font-family: 'Remscheid';
+    src: url('../font2/Remscheid-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../font2/Remscheid-Regular.eot') format('embedded-opentype'), /* IE6-IE8 */
+         url('../font2/Remscheid-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../font2/Remscheid-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../font2/Remscheid-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../font2/Remscheid-Regular') format('svg'); /* Legacy iOS */
+
+}
+
+
+
+
+ /*.head {
+    background-color: #04181b;
+    width: 300px;
+    height: 150px;
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+
+
+header {
+    background-color:  #04181b;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+
+}
+
+
+.sight img {
+    display: block;
+    width: 100px;
+    height: auto;
+}
+
+
+.header-content {
+    text-align: center;
+    flex: 1;
+}
+
+.banner {
+    font-size: 23px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+
+.navbar {
+    margin-top: 10px;
+}
+  
+
+
+
+/*.navbar {
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    width: 100%;
+}*/
+
+
+.menu {
+   
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style-type: none;
+}
+
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding:10px 15px; 
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+
+.menu li a:hover {
+    background-color: #575757;
+}
+
+/*.menu li {
+    list-style-type: none;
+    display: inline;
+}*/
+
+
+
+/*.menu li a {
+    text-decoration: none;
+    color: goldenrod;
+}*/
+
+/*.sight {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 80px;
+    height: auto;
+
+}*/
+
+
+.hero {
+    background: url("../wallpapersden.com_world-of-warcraft-the-lich-king-4k_3840x1973.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+
+}
+
+.caption {
+    height: 300px;
+    font-size: 20px;
+    color: #ff99f4;
+    font-family: 'Remscheid'
+}
+
+.small-img {
+    
+    height: 400px;
+}
+
+
+.room {
+    float: left;
+}
+
+.room-1 {
+    float: right;
+}
+
+.text {
+    font-size: 25px;
+
+}
+
+
+
+.foot {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.social-section {
+    text-align: center;
+}
+
+.social-section p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons a {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s;
+}
+
+.social-icons .facebook {
+    background-color:  #4267B2;
+}
+
+.social-icons .instagram {
+    background: linear-gradient(45deg,  #833ab4, #fd1d1d,  #fcb045);
+}
+
+.social-icons .tiktok {
+    background-color: black;
+}
+
+.social-icons .youtube {
+    background-color: red;
+}
+
+.social-icons a:hover {
+    opacity: 0.8;
+}
+
+.about-desc {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.text {
+    flex: 1;
+    margin-right: 20px;
+    
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+}
+
+.pictures {
+    border: 5px solid gray;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    overflow: scroll;
+}
+
+.album {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #fff;
+}
+
+.formcontainer {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rbga(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+   margin-bottom: 15px;
+   padding: 10px;
+   border: 1px solid black;
+   border-radius: 5px;
+}
+
+button {
+    background-color: #4267B2;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
